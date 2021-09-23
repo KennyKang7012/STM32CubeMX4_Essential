@@ -1,0 +1,26 @@
+--cpu Cortex-M4.fp
+"adc_continous\stm32f4xx_hal_msp.o"
+"adc_continous\stm32f4xx_it.o"
+"adc_continous\main.o"
+"adc_continous\system_stm32f4xx.o"
+"adc_continous\startup_stm32f411xe.o"
+"adc_continous\stm32f4xx_hal_dma_ex.o"
+"adc_continous\stm32f4xx_hal_adc.o"
+"adc_continous\stm32f4xx_hal_cortex.o"
+"adc_continous\stm32f4xx_hal_adc_ex.o"
+"adc_continous\stm32f4xx_hal_flash.o"
+"adc_continous\stm32f4xx_hal_tim.o"
+"adc_continous\stm32f4xx_hal_flash_ex.o"
+"adc_continous\stm32f4xx_hal_gpio.o"
+"adc_continous\stm32f4xx_hal_rcc_ex.o"
+"adc_continous\stm32f4xx_hal_dma.o"
+"adc_continous\stm32f4xx_hal_tim_ex.o"
+"adc_continous\stm32f4xx_hal_pwr.o"
+"adc_continous\stm32f4xx_hal_pwr_ex.o"
+"adc_continous\stm32f4xx_hal.o"
+"adc_continous\stm32f4xx_hal_rcc.o"
+"adc_continous\stm32f4xx_hal_flash_ramfunc.o"
+--library_type=microlib --strict --scatter "ADC_Continous\ADC_Continous.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ADC_Continous.map" -o ADC_Continous\ADC_Continous.axf

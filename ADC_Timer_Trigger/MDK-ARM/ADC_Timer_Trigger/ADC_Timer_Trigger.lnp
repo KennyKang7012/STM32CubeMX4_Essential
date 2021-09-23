@@ -1,0 +1,26 @@
+--cpu Cortex-M4.fp
+"adc_timer_trigger\system_stm32f4xx.o"
+"adc_timer_trigger\stm32f4xx_hal_adc_ex.o"
+"adc_timer_trigger\stm32f4xx_hal_flash.o"
+"adc_timer_trigger\stm32f4xx_hal_dma.o"
+"adc_timer_trigger\stm32f4xx_hal_rcc_ex.o"
+"adc_timer_trigger\stm32f4xx_hal_tim_ex.o"
+"adc_timer_trigger\stm32f4xx_hal_gpio.o"
+"adc_timer_trigger\stm32f4xx_hal_dma_ex.o"
+"adc_timer_trigger\stm32f4xx_hal_rcc.o"
+"adc_timer_trigger\stm32f4xx_hal_flash_ramfunc.o"
+"adc_timer_trigger\stm32f4xx_hal_pwr_ex.o"
+"adc_timer_trigger\stm32f4xx_hal_flash_ex.o"
+"adc_timer_trigger\stm32f4xx_hal_pwr.o"
+"adc_timer_trigger\stm32f4xx_hal_cortex.o"
+"adc_timer_trigger\stm32f4xx_hal_adc.o"
+"adc_timer_trigger\stm32f4xx_hal_tim.o"
+"adc_timer_trigger\stm32f4xx_hal.o"
+"adc_timer_trigger\stm32f4xx_hal_msp.o"
+"adc_timer_trigger\stm32f4xx_it.o"
+"adc_timer_trigger\main.o"
+"adc_timer_trigger\startup_stm32f411xe.o"
+--library_type=microlib --strict --scatter "ADC_Timer_Trigger\ADC_Timer_Trigger.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ADC_Timer_Trigger.map" -o ADC_Timer_Trigger\ADC_Timer_Trigger.axf
